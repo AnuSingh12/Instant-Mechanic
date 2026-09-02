@@ -97,6 +97,7 @@ The application follows the MVVM architecture with separate data, repository, AP
 
 ### Project Structure
 
+```text
 com.example.instantmechanic
 │
 ├── data
@@ -141,18 +142,20 @@ com.example.instantmechanic
 ├── MainActivity.kt
 ├── MainApp.kt
 └── InstantMechanicApplication.kt
-
+```
 ### Data Flow
 
+```text
 UI
-↓
+ ↓
 ViewModel
-↓
+ ↓
 Repository
-↓
+ ↓
 Retrofit API
-↓
+ ↓
 MockAPI
+```
 
 The UI communicates with the ViewModel. The ViewModel uses the Repository to access the REST API. API responses are converted into Kotlin data models using Kotlin Serialization and exposed to the UI using StateFlow.
 
