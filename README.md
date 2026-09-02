@@ -91,14 +91,14 @@ The Request Service screen contains:
 
 After successful submission, the user receives a confirmation message.
 
-## Architecture
+## 🏗️ Architecture
 
-The application follows the MVVM architecture.
+The application follows the MVVM architecture with separate data, repository, API, UI, and navigation layers.
 
 ### Project Structure
 
 com.example.instantmechanic
-
+│
 ├── data
 │   ├── model
 │   │   ├── Mechanic.kt
