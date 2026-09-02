@@ -159,6 +159,21 @@ MockAPI
 
 The UI communicates with the ViewModel. The ViewModel uses the Repository to access the REST API. API responses are converted into Kotlin data models using Kotlin Serialization and exposed to the UI using StateFlow.
 
+## Setup Instructions
+
+1. Clone the repository
+2. Open the project in Android Studio
+3. Sync Gradle
+4. Run the app on an emulator/device
+
+## Assumptions / Additional Features
+
+- MockAPI is used as the backend for demonstration purposes.
+- Mechanic data is fetched dynamically through REST APIs.
+- Hilt is used for dependency injection.
+- Navigation 3 is used for screen navigation.
+- Form validation is implemented before submitting service requests.
+
 ## REST API
 
 The application uses MockAPI as the backend.
